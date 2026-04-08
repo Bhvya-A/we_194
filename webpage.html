@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Git Page</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            background: rgba(0,0,0,0.3);
+        }
+
+        .container {
+            margin-top: 100px;
+        }
+
+        button {
+            padding: 12px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            background: #ff9800;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #e68900;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    🚀 My First Git Project
+</header>
+
+<div class="container">
+    <h1>Hello, World!</h1>
+    <p>This page is uploaded using Git.</p>
+
+    <button onclick="changeText()">Click Me</button>
+    <p id="demo"></p>
+</div>
+
+<script>
+    function changeText() {
+        document.getElementById("demo").innerHTML = "🔥 You just clicked the button!";
+    }
+</script>
+
+</body>
+</html>
